@@ -8,7 +8,7 @@ This code is the official implementation of our paper "[Credible Sample Elicitat
 
 📋 (2) MNIST Experiment: this folder is the Python implementation of our porposed mechanism given image data (as an example, we adopt MNIST test dataset).
 
-###Note: details of reproducing our experiment results are mentioned in the ``README" file in each folder.
+Note: details of reproducing our experiment results are mentioned in the ``README" file in each folder.
 
 ## Citation
 
@@ -22,6 +22,11 @@ If you use our code, please cite the following paper:
   year={2019}
 }
 ```
+
+
+## Contact
+
+If you have any concerns on the impletation, feel free to send me an e-mail (jiahengwei@ucsc.edu) or report an issue.
 
 
 ## References
