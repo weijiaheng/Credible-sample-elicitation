@@ -135,6 +135,7 @@ else:
             gauss_img = torch.tensor(random_noise(cln_data, mode='speckle', mean=0, var=epsi, clip=True))
             save_noisy_image(gauss_img, image_path)
             count += 1
+        print("Generating Noise report finished!!!")
 
 
 mnist_folder = f"PeerReport/MNIST/Peer_reference"

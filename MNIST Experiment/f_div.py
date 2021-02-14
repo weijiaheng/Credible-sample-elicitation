@@ -193,7 +193,7 @@ class Cal_f_score:
             noise_images = self.process_batch(self.noise_iter)
             DX_score = D(cln_images)
             DG_score = D(noise_images)
-            D_loss = self.loss_fnc.actv(DX_score/2 + DG_score/2, DX_score * DG_score)
+            D_loss = self.loss_fnc.actv(DX_score, DG_score)
             D_losses.append(D_loss.item())
         
         # Evaluate per 50 submitted images; scores/payments are saved to the ``Results" folder.
