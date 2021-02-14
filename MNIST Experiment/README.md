@@ -13,8 +13,11 @@ This code is the official Pytorch implementation of our paper "[Credible Sample 
 ## Utilities
 
 📋 (1) `dataset.py`: Prepare dataloader for MNIST dataset (load data from image folder);
+
 📋 (2) `Inception_model.py`, `fid.py`, `fid_peer.py`: used for FID calculation, mainly adopted from `https://github.com/mseitzer/pytorch-fid/blob/master/pytorch_fid/inception.py`;
+
 📋 (3) `f_div.py`: main part, including generating images, f-div score calculation (when there is ground-truth for verification).
+
 📋 (4) `f_div_peer.py`: main part, including generating images, f-div score calculation (when there is no ground-truth for verification).
 
 
