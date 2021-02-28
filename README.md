@@ -1,6 +1,6 @@
-# Credible sample elicitation
+# Sample elicitation
 
-This code is the official implementation of our paper "[Credible Sample Elicitation](https://arxiv.org/abs/1910.03155)" accepted by AISTATS2021.
+This code is the official implementation of our paper "[Sample Elicitation](https://arxiv.org/abs/1910.03155)" accepted by AISTATS2021.
 
 ## Utilities
 
