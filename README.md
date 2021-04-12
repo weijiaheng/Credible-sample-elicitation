@@ -15,11 +15,13 @@ Note: details of reproducing our experiment results are mentioned in the ``READM
 If you use our code, please cite the following paper:
 
 ```
-@article{liu2019credible,
-  title={Credible Sample Elicitation},
-  author={Liu, Yang and Fu, Zuyue and Yang, Zhuoran and Wang, Zhaoran},
-  journal={arXiv preprint arXiv:1910.03155},
-  year={2019}
+@inproceedings{wei2021sample,
+  title={Sample Elicitation},
+  author={Wei, Jiaheng and Fu, Zuyue and Liu, Yang and Li, Xingyu and Yang, Zhuoran and Wang, Zhaoran},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={2692--2700},
+  year={2021},
+  organization={PMLR}
 }
 ```
 
